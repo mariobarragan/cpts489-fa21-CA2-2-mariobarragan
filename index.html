@@ -37,8 +37,10 @@
       alt="SpeedScore logo">
       <h1 id="appName" class="navbar-title">SpeedScore</h1> 
       <div class="navbar-right-items">
+
         <button  id="searchBtn" type="button" class="navbar-btn hidden" 
           title="Search" aria-label="Search">
+          <input type="text" maxlength="30" aria-describedby="search input box"> 
           <span class="navbar-btn-icon fas fa-search"></span>
         </button>
         <button id="profileBtn" type="button" class="navbar-btn navbar-profile-btn hidden" 
@@ -49,14 +51,16 @@
       <ul id="sideMenu" role="menu" class="sidemenu"
           arial-labelledby="menuBtn">
         <li role="menuitem" tabindex="-1">
-          Settings 
-          <i class ="fas Ch2FAIco">no </i>
+          <i class ="fa fa-cog"></i>&nbsp;Settings 
         </li>
         <li role="menuitem" tabindex="-1">
-          About
+          <i class ="fa fa-info-circle"></i>&nbsp;About
+          
         </li>
         <li role="menuitem" tabindex="-1">
-          Log Out
+          <i class ="fa fa-sign-out "></i>&nbsp;Log Out
+         
+
         </li>
       </ul>
     </nav>
@@ -68,29 +72,28 @@
           class="modetab-btn modetab-selected" 
           role="tab" tabindex="0" aria-selected="true" 
           aria-controls="feedModeTab">
-          Feed
-          <i class="fa fa-newspaper-o"></i>
+          <i class="fa fa-newspaper-o"></i>&nbsp; Feed
+          
         </button>
         <button id="roundsMode" type="button" 
           class="modetab-btn" 
           role="tab" tabindex="-1" aria-selected="false" 
           aria-controls="roundsModeTab">
-          Rounds
-          <i class="fas fa-golf-ball"> </i>
+          <i class="fas fa-calendar-plus"> </i>&nbsp; Rounds
         </button>
         <button id="coursesMode" type="button" 
           class="modetab-btn" 
           role="tab" tabindex="-1" aria-selected="false" 
           aria-controls="coursesModeTab">
-          Courses
-          <i class="fa fa-mountain"> </i>
+          <i class="fa fa-plus"> </i>&nbsp;Courses
+          
         </button>
         <button id="buddiesMode" type="button" 
           class="modetab-btn" 
           role="tab" tabindex="-1" aria-selected="false" 
           aria-controls="buddiesModeTab">
-          Buddies
-          <i class="fa fa-users"> </i>
+          <i class="fa fa-users"> </i>&nbsp;Buddies
+          
         </button>
       </div>
       <div id="feedModeTab" class="mode-page hidden" role="tabpanel"
