@@ -193,7 +193,7 @@
 /* .modetab -- Style the container enclosing the mode tabs */
 .modetab-container {
     position: fixed;
-    top: 60px;
+    bottom: 0px;
     left: 0px;
     width: 100%;
     z-index: 150;
@@ -273,7 +273,7 @@
         position:fixed;
         width: 130px;
         height: 40px;
-        bottom: 20px;
+        bottom: 50px;
         right: 20px;
         color: var(--text-color);
         background-color: var(--main-color);
